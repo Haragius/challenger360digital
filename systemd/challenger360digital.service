@@ -1,0 +1,17 @@
+[Unit]
+Description=Challenger360 Digital Daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/challenger360digitald --config /etc/challenger360digital/challenger360digital.conf
+Restart=always
+RestartSec=5
+#User=root  # or your user with hid access
+WorkingDirectory=/usr/local/bin
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
