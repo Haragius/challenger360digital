@@ -41,25 +41,25 @@ int main(int argc, char* argv[])
     }
     catch (const ConfigException& e)
     {
-        std::cerr << "Configuration error: " << e.what() << '\n';
+        std::cerr << "Configuration error: " << e.what() << std::endl;
 
         return EXIT_FAILURE;
     }
     catch (const SensorException& e)
     {
-        std::cerr << "Sensor error: " << e.what() << '\n';
+        std::cerr << "Sensor error: " << e.what() << std::endl;
 
         return EXIT_FAILURE;
     }
     catch (const DisplayException& e)
     {
-        std::cerr << "Display error: " << e.what() << '\n';
+        std::cerr << "Display error: " << e.what() << std::endl;
 
         return EXIT_FAILURE;
     }
     catch (const std::exception& e)
     {
-        std::cerr << "Error: " << e.what() << '\n';
+        std::cerr << "Error: " << e.what() << std::endl;
 
         return EXIT_FAILURE;
     }

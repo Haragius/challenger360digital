@@ -87,7 +87,7 @@ int Application::run()
             }
             catch (const std::exception& e)
             {
-                std::cerr << "Configuration reload failed: " << e.what() << '\n';
+                std::cerr << "Configuration reload failed: " << e.what() << std::endl;
             }
         }
 
