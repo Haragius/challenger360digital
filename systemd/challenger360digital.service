@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/challenger360digitald --config /etc/challenger360digital/challenger360digital.conf
+ExecStart=/usr/local/bin/challenger360digitald --config /etc/challenger360digital/challenger360digital.conf
 Restart=always
 RestartSec=5
 #User=root  # or your user with hid access
