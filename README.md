@@ -1,8 +1,8 @@
 # Challenger 360 digital
-A collection of tools for running the ASRock Challenger 360 Digital AIO liquid cooling system (the display) on Linux.  
-In theory, it's possible to map any readable sensor to the display. In practice, however, that doesn't make much sense.  
-Because of limitations in the drivers, it may be the case, for example, that no value can be calculated for the load.  
-Although the display of values works, the load monitoring feature has not yet been implemented.  
+A collection of tools for running the ASRock Challenger 360 Digital AIO liquid cooling system (the display) on Linux.
+In theory, it's possible to map any readable sensor to the display. In practice, however, that doesn't make much sense.
+Because of limitations in the drivers, it may be the case, for example, that no value can be calculated for the load.
+Although the display of values works, the load monitoring feature has not yet been implemented.
 I currently recommend using the CPU's sensors.
 
 **Temperature from lm_sensor:**  
