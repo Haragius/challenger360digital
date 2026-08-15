@@ -83,7 +83,7 @@ int Application::run()
 
                 displayController.reloadConfiguration(config_);
 
-                std::cout << "Configuration reloaded.\n";
+                std::cout << "Configuration reloaded." << std::endl;
             }
             catch (const std::exception& e)
             {
